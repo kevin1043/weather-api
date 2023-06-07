@@ -1,6 +1,5 @@
 
-// const apiUrl1 = `http://api.openweathermap.org/geo/1.0/direct?q=${city},&limit=1&appid={apiKey1}`;        
-// const apiUrl2 = `https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=apiKey2&include=minutely`;
+
 const express = require('express');
 const path = require('path');
 const fetch = require('node-fetch');
@@ -8,9 +7,8 @@ require('dotenv').config();
 
 
 const app = express();
-const port = 3000; // Choose any available port number
+const port = 3000;
 
-// Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public'))); app.use(express.json());
 app.post('/getWeather', async (req, res) => {
     const cities = req.body.cities;
