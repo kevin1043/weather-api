@@ -46,7 +46,7 @@ Replace the placeholder values with your actual API keys for OpenWeather and Wea
    ```bash
    npm start
  
-5.Open your browser and navigate to http://localhost:3000 to access the Weather App.
+5. Open your browser and navigate to http://localhost:3000 to access the Weather App.
 
 ## Setup Instructions
 1. Enter the names of the cities you want to check the weather for in the input field.
