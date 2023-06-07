@@ -32,3 +32,25 @@ This is a Weather App that fetches real-time weather data from various APIs base
 
    ```bash
    git clone https://github.com/your-username/your-repo.git
+   
+2. Install dependencies.
+    ```bash
+    cd your-repo
+    npm install
+3. Set up environment variables.
+
+Rename the .env.example file to .env.
+Replace the placeholder values with your actual API keys for OpenWeather and Weatherbit.
+
+4. Run the application
+   ```bash
+   npm start
+ 
+5.Open your browser and navigate to http://localhost:3000 to access the Weather App.
+
+## Setup Instructions
+1. Enter the names of the cities you want to check the weather for in the input field.
+2. Click the "Get Weather" button to fetch and display the real-time weather data for each city.
+
+   
+   
