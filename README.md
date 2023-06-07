@@ -39,8 +39,8 @@ This is a Weather App that fetches real-time weather data from various APIs base
     npm install
 3. Set up environment variables.
 
-Rename the .env.example file to .env.
-Replace the placeholder values with your actual API keys for OpenWeather and Weatherbit.
+   - Rename the .env.example file to .env.
+   - Replace the placeholder values with your actual API keys for OpenWeather and Weatherbit.
 
 4. Run the application
    ```bash
